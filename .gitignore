@@ -5,3 +5,7 @@
 /project/target/
 /target/
 /.idea/
+/bin/
+.classpath
+.project
+.cache
