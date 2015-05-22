@@ -1,0 +1,19 @@
+New log file opened at Fri May 22 16:40:21 JST 2015 by 7860@JPA1130JH1
+Taking next connection to: 49616
+New client attempting to connect on port: 49617-49616
+  Address = /192.168.227.44:49616
+This client on port 49617 has uuid 15af1dc1-3a05-4f6d-994c-5085ab58b06f configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-15af1dc1-3a05-4f6d-994c-5085ab58b06f
+Taking next connection to: 49616
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49616
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 49616
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 7860@JPA1130JH1 logs at Fri May 22 16:49:21 JST 2015, goodbye.
