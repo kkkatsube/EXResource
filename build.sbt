@@ -21,3 +21,8 @@ com.typesafe.sbt.SbtGit.versionWithGit
 
 
 fork in run := true
+
+// scoverage
+instrumentSettings
+org.scoverage.coveralls.CoverallsPlugin.coverallsSettings
+ScoverageKeys.highlighting := true
