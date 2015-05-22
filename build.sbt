@@ -12,7 +12,11 @@ crossScalaVersions := Seq("2.10.4", "2.11.4")
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.1" % "test",
-  "junit" % "junit" % "4.11" % "test"
+  "junit" % "junit" % "4.11" % "test",
+  jdbc,
+  anorm,
+  cache,
+  ws
 )
 
 bintraySettings
