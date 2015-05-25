@@ -11,5 +11,5 @@ dependencies:
 test:
   override:
     - "sbt scoverage:test"
-  post:
-    - "sbt coveralls" # テスト終了後COVERALLSに結果送信
+#  post:
+#    - "sbt coveralls" # テスト終了後COVERALLSに結果送信
