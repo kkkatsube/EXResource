@@ -10,8 +10,8 @@ class TestSpec extends WordSpec with MustMatchers {
   object Test extends Test
 
   "Test" must {
-    "say hello" in {
-      Test.helloWorld() must equal ("Hello World!")
+    "say hello true" in {
+      Test.helloWorld( true ) must equal ("Hello World!")
     }
   }
 
