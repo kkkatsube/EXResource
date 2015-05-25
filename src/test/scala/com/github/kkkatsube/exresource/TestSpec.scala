@@ -13,6 +13,9 @@ class TestSpec extends WordSpec with MustMatchers {
     "say hello true" in {
       Test.helloWorld( true ) must equal ("Hello World!")
     }
+    "say hello false" in {
+      Test.helloWorld( false ) must equal ("Hello World?")
+    }
   }
 
 }
