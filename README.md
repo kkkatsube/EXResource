@@ -2,4 +2,4 @@
 
 This library is scala utility for using the file resource.
 
-create on $activator ui : use scala-library-seed.
+Note : This project has been made based on the **scala-library-seed** template of **activator**.
