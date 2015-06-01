@@ -12,15 +12,17 @@ abstract class EXResource[T]( path: String ) extends HashMap[String,T] {
   override def get( key: String ) : Option[T] =
   {
     val file = new File( path + key )
-    if( file.exists() && file.isFile() && file.canRead() )
-    {
+    if( file.exists() && file.isFile() && file.canRead() ) {
       val s = Source.fromFile( path + key );
-      super.put( key, eval( s.mkString ) )
-      super.get( key )
-    }
-    else
-    {
+      try {
+        super.put( key, eval( s.mkString ) )
+        super.get( key )
+      } finally {
+        s.close
+      }
+    } else {
       None
     }
   }
+  
 }
