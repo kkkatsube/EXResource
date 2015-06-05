@@ -24,5 +24,5 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-digest" % "1.0.0")
 addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.0.0")
 
 resolvers += Classpaths.sbtPluginReleases
-addSbtPlugin("org.scoverage" %% "sbt-scoverage" % "0.99.11")
-addSbtPlugin("org.scoverage" %% "sbt-coveralls" % "0.99.0")
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.0.4")
+addSbtPlugin("org.scoverage" % "sbt-coveralls" % "1.0.0")

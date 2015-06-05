@@ -17,8 +17,8 @@ class TextEXResourceSpec extends WordSpec with MustMatchers {
     "resource TextEXResource.scala.text-resource text validation" in {
       exr.get("TextEXResourceSpec.scala.text-resource").get must equal ("This is test.")
     }
-//    "non exists validation" in {
-//      exr.get("NON-EXISTS-RESOURCE-FILE") must equal (None)
-//    }
+    "non exists validation" in {
+      exr.get("NON-EXISTS-RESOURCE-FILE") must equal (None)
+    }
   }
 }
