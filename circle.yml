@@ -3,13 +3,8 @@ general:
   artifacts:
     - "target/*/scoverage-report"
 
-# テスト準備コマンドを上書きしてScoverageに対応させる
-dependencies:
-  override:
-    - "sbt scoverage:compile"
-
 test:
   override:
-    - "sbt scoverage:test"
+    - "sbt clean coverage test"
   post:
     - "sbt coveralls" # テスト終了後COVERALLSに結果送信
